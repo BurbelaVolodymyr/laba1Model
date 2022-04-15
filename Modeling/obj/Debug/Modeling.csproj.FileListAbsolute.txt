@@ -1,0 +1,10 @@
+D:\visual studio\Modeling\Modeling\bin\Debug\Modeling.exe.config
+D:\visual studio\Modeling\Modeling\bin\Debug\Modeling.exe
+D:\visual studio\Modeling\Modeling\bin\Debug\Modeling.pdb
+D:\visual studio\Modeling\Modeling\obj\Debug\Modeling.csprojAssemblyReference.cache
+D:\visual studio\Modeling\Modeling\obj\Debug\Modeling.MainForm.resources
+D:\visual studio\Modeling\Modeling\obj\Debug\Modeling.Properties.Resources.resources
+D:\visual studio\Modeling\Modeling\obj\Debug\Modeling.csproj.GenerateResource.cache
+D:\visual studio\Modeling\Modeling\obj\Debug\Modeling.csproj.CoreCompileInputs.cache
+D:\visual studio\Modeling\Modeling\obj\Debug\Modeling.exe
+D:\visual studio\Modeling\Modeling\obj\Debug\Modeling.pdb
