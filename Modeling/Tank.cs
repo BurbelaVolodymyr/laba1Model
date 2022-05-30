@@ -28,21 +28,21 @@ namespace Modeling
         public Tank(double dt)
         {
             this.dt = dt;
-            kx11 = new GainBlock(3039.1);
-            kx12 = new GainBlock(0.6131);
-            kx21 = new GainBlock(609.2753);
-            kx22 = new GainBlock(-262.9795);
-            kx23 = new GainBlock(0.1738);
+            kx11 = new GainBlock(2); //3039.1
+            kx12 = new GainBlock(0.2); //0.6131
+            kx21 = new GainBlock(1); //609.2753
+            kx22 = new GainBlock(-0.5); //-262.9795
+            kx23 = new GainBlock(0.1); //0.1738
 
             xLimit = new LimitBlock(0, 100);
 
             Block1 = new ComplexBlock();
-            Block1.Add(new APBlock(dt, 36.85));
+            Block1.Add(new APBlock(dt, 10)); //36.85
             Block1.Add(new NoiseBlock(1));
 
             Block2 = new ComplexBlock();
-            Block2.Add(new APBlock(dt, 4.64));
-            Block2.Add(new NoiseBlock(1));
+            Block2.Add(new APBlock(dt, 10)); //4.64
+            Block2.Add(new NoiseBlock(1));        
         }
 
         public double Calc1(double xIn1)
